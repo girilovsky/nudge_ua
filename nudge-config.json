@@ -1,0 +1,55 @@
+{
+  "optionalFeatures": {
+    "utilizeSOFAFeed": true,
+    "aggressiveUserExperience": false,
+    "aggressiveUserFullScreenExperience": false,
+    "acceptableCameraUsage": true,
+    "acceptableScreenSharingUsage": true,
+    "acceptableApplicationBundleIDs": [
+      "us.zoom.xos",
+      "com.microsoft.teams2",
+      "com.webex.meetingmanager"
+    ],
+    "randomDelay": true,
+    "attemptToCheckForSupportedDevice": true
+  },
+  "userExperience": {
+    "allowedDeferrals": 100,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "allowCustomDeferralDate": true,
+    "initialRefreshCycle": 18000,
+    "approachingWindowTime": 72,
+    "imminentWindowTime": 24
+  },
+  "userInterface": {
+    "simpleMode": false,
+    "showDaysRemainingToUpdate": false,
+    "fallbackLanguage": "en",
+    "updateElements": [
+      {
+        "_language": "en",
+        "mainHeader": "Your Mac requires a security update",
+        "subHeader": "A friendly reminder from your IT team",
+        "mainContentHeader": "Your device will restart during this update",
+        "mainContentSubHeader": "Please save all your work before clicking Update Device",
+        "mainContentNote": "**Important:** Updates help protect company data and keep your Mac secure",
+        "mainContentText": "A macOS update is available for your Mac. Keeping your operating system up to date is essential for security and performance.\n\nClick **Update Device** to open Software Update, then follow the on-screen instructions.\n\nIf you need help, contact IT support.",
+        "actionButtonText": "Update Device",
+        "primaryQuitButtonText": "Later",
+        "secondaryQuitButtonText": "I understand",
+        "informationButtonText": "More Info"
+      }
+    ]
+  },
+  "osVersionRequirements": [
+    {
+      "requiredMinimumOSVersion": "latest-supported",
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://support.apple.com/en-us/100100"
+        }
+      ]
+    }
+  ]
+}
