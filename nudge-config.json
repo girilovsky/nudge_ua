@@ -14,30 +14,38 @@
     "attemptToCheckForSupportedDevice": true
   },
   "userExperience": {
-    "allowedDeferrals": 100,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "allowedDeferrals": 30,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 20,
     "allowCustomDeferralDate": true,
     "initialRefreshCycle": 18000,
     "approachingWindowTime": 72,
     "imminentWindowTime": 24
   },
   "userInterface": {
-    "simpleMode": false,
-    "showDaysRemainingToUpdate": false,
+    "simpleMode": true,
+    "showDaysRemainingToUpdate": true,
+    "maxDaysToRespond": 7,
     "fallbackLanguage": "en",
+    "iconDarkPath": "/Applications/Company Portal.app/Contents/Resources/AppIcon.icns",
+    "iconLightPath": "/Applications/Company Portal.app/Contents/Resources/AppIcon.icns",
     "updateElements": [
       {
         "_language": "en",
         "mainHeader": "Your Mac requires a security update",
         "subHeader": "A friendly reminder from your IT team",
-        "mainContentHeader": "Your device will restart during this update",
-        "mainContentSubHeader": "Please save all your work before clicking Update Device",
-        "mainContentNote": "**Important:** Updates help protect company data and keep your Mac secure",
-        "mainContentText": "A macOS update is available for your Mac. Keeping your operating system up to date is essential for security and performance.\n\nClick **Update Device** to open Software Update, then follow the on-screen instructions.\n\nIf you need help, contact IT support.",
         "actionButtonText": "Update Device",
         "primaryQuitButtonText": "Later",
         "secondaryQuitButtonText": "I understand",
         "informationButtonText": "More Info"
+      },
+      {
+        "_language": "uk",
+        "mainHeader": "Ваш Mac потребує оновлення безпеки",
+        "subHeader": "Нагадування від IT-команди",
+        "actionButtonText": "Оновити пристрій",
+        "primaryQuitButtonText": "Пізніше",
+        "secondaryQuitButtonText": "Я розумію",
+        "informationButtonText": "Детальніше"
       }
     ]
   },
@@ -48,6 +56,10 @@
         {
           "_language": "en",
           "aboutUpdateURL": "https://support.apple.com/en-us/100100"
+        },
+        {
+          "_language": "uk",
+          "aboutUpdateURL": "https://support.apple.com/uk-ua/100100"
         }
       ]
     }
