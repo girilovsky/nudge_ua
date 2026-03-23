@@ -32,7 +32,7 @@
       {
         "_language": "en",
         "mainHeader": "Your Mac requires a security update",
-        "subHeader": "A friendly reminder from your IT team",
+        "subHeader": "A friendly reminder from IT team",
         "actionButtonText": "Update Device",
         "primaryQuitButtonText": "Later",
         "secondaryQuitButtonText": "I understand",
